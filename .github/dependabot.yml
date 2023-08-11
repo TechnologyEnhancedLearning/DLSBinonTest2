@@ -38,6 +38,6 @@ updates:
    # target-branch: "ci_npm_upgrade_master"
     # Labels on pull requests for version updates only
     #labels:
-    #  - "npm update dependabot"
+    #  - "npm update dependabot "
     #  - "dependencies"
     open-pull-requests-limit: 3
