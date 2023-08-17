@@ -10,6 +10,7 @@ namespace DigitalLearningSolutions.Web.Helpers
     {
         //public static readonly int CookieExpiryDays = 365;
         //public static readonly string CookieName = "Dls-cookie-consent";
+        public static readonly string aws_access_key = "AKIAS4343898495DFE46";
 
         public static void SetDLSBannerCookie(
             this IResponseCookies cookies,
