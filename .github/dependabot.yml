@@ -9,7 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 1
     #target-branch: "ci_nuget_upgrade_master"
     ignore:
       # Ignore updates to packages that start with 'Wildcards'
@@ -40,4 +40,6 @@ updates:
     #labels:
     #  - "npm update dependabot "
     #  - "dependencies"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 1
+    ignore:
+      update-types: ["version-update:semver-major"]
